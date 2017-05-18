@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "start": "http-server dist -p ${PORT:=5000} -c-1",
+    "start": "node server.js",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "postinstall": "npm run build"
