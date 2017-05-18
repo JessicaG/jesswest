@@ -5,10 +5,12 @@
   "author": "Jessica West",
   "private": true,
   "scripts": {
+    "preinstall": "export NPM_CONFIG_PRODUCTION=false",
     "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
+    "start": "http-server dist -s",
     "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "vue": "^2.2.2",
