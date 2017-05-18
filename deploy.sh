@@ -78,7 +78,7 @@ parse_args() {
   default_email="jgoulding2@gmail.com"
 
   #repository to deploy to. must be readable and writable.
-  repo="GH"
+  repo="origin"
 
   #append commit hash to the end of message by default
   append_hash=true
