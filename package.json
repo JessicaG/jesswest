@@ -5,7 +5,6 @@
   "author": "Jessica West",
   "private": true,
   "scripts": {
-    "preinstall": "export NPM_CONFIG_PRODUCTION=false",
     "dev": "node build/dev-server.js",
     "start": "http-server dist -s",
     "build": "node build/build.js",
@@ -14,9 +13,7 @@
   },
   "dependencies": {
     "vue": "^2.2.2",
-    "vue-router": "^2.3.0"
-  },
-  "devDependencies": {
+    "vue-router": "^2.3.0",
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
