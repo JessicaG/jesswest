@@ -1,6 +1,6 @@
 # jesswest
 
-> personal website
+> personal website 💃
 
 ## Build Setup
 
